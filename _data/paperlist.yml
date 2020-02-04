@@ -11,7 +11,8 @@ papers:
   year: 2019
   tags:
    - "Reinforcement Learning"
-  pdfurl: ""
+   - "Deep Learning"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2019blood.pdf"
   codeurl: "https://github.com/njustesen/ffai"
   webpageurl: "www.bot-bowl.com"
   abstract: "We propose the popular board game Blood Bowl as a new challenge for Artificial Intelligence (AI). Blood Bowl is a fully-observable, stochastic, turn-based, modern-style board game with a grid-based game board. At first sight, the game ought to be approachable by numerous game-playing algorithms. However, as all pieces on the board belonging to a player can be moved several times each turn, the turn-wise branching factor becomes overwhelming for traditional algorithms. Additionally, scoring points in the game is rare and difficult, which makes it hard to design heuristics for search algorithms or apply reinforcement learning. We present the Fantasy Football AI (FFAI) framework that implements the core rules of Blood Bowl and includes a forward model, several OpenAI Gym environments for reinforcement learning, competition functionalities, and a web application that allows for human play. We also present Bot Bowl I, the first AI competition that will use FFAI along with baseline agents and preliminary reinforcement learning results. Additionally, we present a wealth of opportunities for future AI competitions based on FFAI."
@@ -30,10 +31,9 @@ papers:
    - "Sebastian Risi"
   year: 2019
   tags:
-   - StarCraft
-  pdfurl: ""
-  codeurl: ""
-  webpageurl: ""
+   - "StarCraft"
+   - "Deep Learning"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2019when.pdf"
   abstract: "From an early point, games have been promoted as important challenges within the research field of Artificial Intelligence (AI). Recent developments in machine learning have allowed a few AI systems to win against top professionals in even the most challenging video games, including Dota 2 and StarCraft. It thus may seem that AI has now achieved all of the long-standing goals that were set forth by the research community. In this paper, we introduce a black box approach that provides a pragmatic way of evaluating the fairness of AI vs. human competitions, by only considering motoric and perceptual fairness on the competitors’ side. Additionally, we introduce the notion of extrinsic and intrinsic factors of a game competition and apply these to discuss and compare the competitions in relation to human vs. human competitions. We conclude that Dota 2 and StarCraft II are not yet mastered by AI as they so far only have been able to win against top professionals in limited competition structures in restricted variants of the games."
   bibtex: |
           "@inproceedings{justesen2019we,
@@ -50,10 +50,8 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2019
   tags:
-   - Evoluationary Algorithms
-  pdfurl: ""
-  codeurl: ""
-  webpageurl: ""
+   - "Evoluationary Algorithms"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2019map.pdf"
   abstract: "Quality Diversity algorithms (QD) evolve a set of high-performing phenotypes that each behaves as differently as possible. However, current algorithms are all elitist, which make them unable to cope with stochastic fitness functions and behavior evaluations. In fact, many of the promising applications of QD algorithms, for instance, games and robotics, are stochastic. Here we propose two new extensions to the QD-algorithm MAP-Elites — adaptive sampling and drifting-elites — and demonstrate empirically that these extensions increase the quality of solutions in a noisy artificial test function and the behavioral diversity in a 2D bipedal walker environment."
   bibtex: |
           "@inproceedings{justesen2019we,
@@ -71,11 +69,10 @@ papers:
    - "Sebastian Risi"
   year: 2019
   tags:
-   - Reinforcement Learning
-   - Evoluationary Algorithms
-  pdfurl: ""
-  codeurl: ""
-  webpageurl: ""
+   - "Deep Learning"
+   - "Reinforcement Learning"
+   - "Evoluationary Algorithms"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2019deep.pdf"
   abstract: "In this article, we review recent Deep Learning advances in the context of how they have been applied to play different types of video games such as first-person shooters, arcade games, and real-time strategy games. We analyze the unique requirements that different game genres pose to a deep learning system and highlight important open challenges in the context of applying these machine learning methods to video games, such as general game playing, dealing with extremely large decision spaces and sparse rewards."
   bibtex: |
           "@article{justesen2019deep,
@@ -94,11 +91,11 @@ papers:
    - "Sebastian Risi"
   year: 2018
   tags:
-   - Reinforcement Learning
-   - Procedural Content Generation
-  pdfurl: ""
-  codeurl: ""
-  webpageurl: ""
+   - "Reinforcement Learning"
+   - "Deep Learning"
+   - "Procedural Content Generation"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2018illuminating.pdf"
+  codeurl: "https://github.com/njustesen/a2c_gvgai"
   abstract: "Deep reinforcement learning (RL) has shown impressive results in a variety of domains, learning directly from high-dimensional sensory streams. However, when neural networks are trained in a fixed environment, such as a single level in a video game, they will usually overfit and fail to generalize to new levels. When RL models overfit, even slight modifications to the environment can result in poor agent performance. This paper explores how procedurally generated levels during training can increase generality. We show that for some games procedural level generation enables generalization to new levels within the same distribution. Additionally, it is possible to achieve better performance with less data by manipulating the difficulty of the levels in response to the performance of the agent. The generality of the learned behaviors is also evaluated on a set of human-designed levels. The results suggest that the ability to generalize to human-designed levels highly depends on the design of the level generators. We apply dimensionality reduction and clustering techniques to visualize the generators’ distributions of levels and analyze to what degree they can produce levels similar to those designed by a human."
   bibtex: |
           "@article{justesen2018illuminating,
@@ -112,16 +109,15 @@ papers:
    - "Sebastian Risi"
    - "Julian Togelius"
   year: 2018
-  tags:
-  pdfurl: ""
-  codeurl: ""
-  webpageurl: ""
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2018blood.pdf"
+  codeurl: "www.github.com/njustesen/ffai"
+  webpageurl: "www.bot-bowl.com"
   abstract: "We propose the popular board game Blood Bowl as a new challenge for Artificial Intelligence (AI). Blood Bowl is a fully-observable, stochastic, turn-based, modern-style board game with a grid-based playing board. At first sight, the game ought to be approachable by numerous game-playing algorithms. However, as all pieces on the board belonging to a player can be moved several times each turn, the turn-wise branching factor becomes overwhelming for traditional algorithms. Additionally, scoring points in the game is rare and difficult, which makes it hard to design heuristics for search algorithms or apply reinforcement learning. We present our work in progress on a game engine that implements the core rules of Blood Bowl with a forward model and a reinforcement learning interface. We plan to release the engine as open source and use it to facilitate future AI competitions."
   bibtex: |
-          "@article{justesen2018illuminating,
-            title={Illuminating Generalization in Deep Reinforcement Learning through Procedural Level Generation},
-            author={Justesen, Niels and Torrado, Ruben Rodriguez and Bontrager, Philip and Khalifa, Ahmed and Togelius, Julian and Risi, Sebastian},
-            journal={NeurIPS 2018 Workshop on Deep Reinforcement Learning},
+          "@article{justesen2018blood,
+            title={Blood bowl: The next board game challenge for ai},
+            author={Justesen, Niels and Risi, Sebastian and Togelius, Julian},
+            journal={Foundations of Digital Games. Association for Computing Machinery},
             year={2018}}"
 - title: "Automated Curriculum Learning by Rewarding Temporally Rare Events"
   authors:
@@ -129,9 +125,10 @@ papers:
    - "Sebastian Risi"
   year: 2018
   tags:
-  pdfurl: ""
-  codeurl: ""
-  webpageurl: ""
+    - "Reinforcement Learning"
+    - "Deep Learning"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2018automated.pdf"
+  codeurl: "https://github.com/njustesen/rarity-of-events"
   abstract: "Reward shaping allows reinforcement learning (RL) agents to accelerate learning by receiving additional reward signals. However, these signals can be difficult to design manually, especially for complex RL tasks. We propose a simple and general approach that determines the reward of pre-defined events by their rarity alone. Here events become less rewarding as they are experienced more often, which encourages the agent to continually explore new types of events as it learns. The adaptiveness of this reward function results in a form of automated curriculum learning that does not have to be specified by the experimenter. We demonstrate that this Rarity of Events (RoE) approach enables the agent to succeed in challenging VizDoom scenarios without access to the extrinsic reward from the environment. Furthermore, the results demonstrate that RoE learns a more versatile policy that adapts well to critical changes in the environment. Rewarding events based on their rarity could help in many unsolved RL environments that are characterized by sparse extrinsic rewards but a plethora of known event types."
   bibtex: |
           "@inproceedings{justesen2018automated,
@@ -149,9 +146,10 @@ papers:
    - "Julian Togelius"
   year: 2017
   tags:
-  pdfurl: ""
-  codeurl: ""
-  webpageurl: ""
+    - "MCTS"
+    - "Evolutionary Algorithms"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2017playing.pdf"
+  codeurl: "https://github.com/njustesen/hero-aicademy"
   abstract: "We address the problem of playing turn-based multi-action adversarial games, which include many strategy games with extremely high branching factors as players take multiple actions each turn. This leads to the breakdown of standard tree search methods, including Monte Carlo Tree Search (MCTS), as they become unable to reach a sufficient depth in the game tree. In this paper, we introduce Online Evolutionary Planning (OEP) to address this challenge, which searches for combinations of actions to perform during a single turn guided by a fitness function that evaluates the quality of a particular state. We compare OEP to different MCTS variations that constrain the exploration to deal with the high branching factor in the turn-based multi-action game Hero Academy. While the constrained MCTS variations outperform the vanilla MCTS implementation by a large margin, OEP is able to search the space of plans more efficiently than any of the tested tree search methods as it has a relative advantage when the number of actions per turn increases."
   bibtex: |
           "@article{justesen2017playing,
@@ -169,9 +167,9 @@ papers:
    - "Sebastian Risi"
   year: 2017
   tags:
-  pdfurl: ""
-  codeurl: ""
-  webpageurl: ""
+    - "StarCraft"
+    - "Deep Learning"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2017learning.pdf"
   abstract: "The real-time strategy game StarCraft has proven to be a challenging environment for artificial intelligence techniques, and as a result, current state-of-the-art solutions consist of numerous hand-crafted modules. In this paper, we show how macromanagement decisions in StarCraft can be learned directly from game replays using deep learning. Neural networks are trained on 789,571 state-action pairs extracted from 2,005 replays of highly skilled players, achieving top-1 and top-3 error rates of 54.6% and 22.9% in predicting the next build action. By integrating the trained network into UAlbertaBot, an open source StarCraft bot, the system can significantly outperform the game’s built-in Terran bot, and play competitively against UAlbertaBot with a fixed rush strategy. To our knowledge, this is the first time macromanagement tasks are learned directly from replays in StarCraft. While the best hand-crafted strategies are still the state-of-the-art, the deep network approach is able to express a wide range of different strategies and thus improving the network’s performance further with deep reinforcement learning is an immediately promising avenue for future research. Ultimately this approach could lead to strong StarCraft bots that are less reliant on hard-coded strategies."
   bibtex: |
           "@inproceedings{justesen2017learning,
@@ -187,9 +185,10 @@ papers:
    - "Sebastian Risi"
   year: 2017
   tags:
-  pdfurl: ""
-  codeurl: ""
-  webpageurl: ""
+   - "Evolutionary Algorithms"
+   - "StarCraft"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2017continual.pdf"
+  codeurl: "https://github.com/njustesen/coep-starcraft"
   abstract: "The real-time strategy game StarCraft has become an important benchmark for AI research as it poses a complex environment with numerous challenges. An important strategic aspect in this game is to decide what buildings and units to produce. StarCraft bots playing in AI competitions today are only able to switch between predefined strategies, which makes it hard to adapt to new situations. This paper introduces an evolutionary-based method to overcome this challenge, called Continual Online Evolutionary Planning (COEP), which is able to perform in-game adaptive build-order planning. COEP was added to an open source StarCraft bot called UAlbertaBot and is able to outperform the built-in bots in the game as well as being competitive against a number of scripted opening strategies. The COEP augmented bot can change its build order dynamically and quickly adapt to the opponent's strategy."
   bibtex: |
           "@inproceedings{justesen2017continual,
@@ -205,7 +204,10 @@ papers:
    - "Sebastian Risi"
   year: 2016
   tags:
-  pdfurl: "We present Online Evolution, a novel method for playing turn-based multi-action adversarial games. Such games, which include most strategy games, have extremely high branching factors due to each turn having multiple actions. In Online Evolution, an evolutionary algorithm is used to evolve the combination of atomic actions that make up a single move, with a state evaluation function used for fitness. We implement Online Evolution for the turn-based multi-action game Hero Academy and compare it with a standard Monte Carlo Tree Search implementation as well as two types of greedy algorithms. Online Evolution is shown to outperform these methods by a large margin. This shows that evolutionary planning on the level of a single move can be very effective for this sort of problems."
+   - "Evolutionary Algorithms"
+   - "MCTS"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2016online.pdf"
+  abstract: "We present Online Evolution, a novel method for playing turn-based multi-action adversarial games. Such games, which include most strategy games, have extremely high branching factors due to each turn having multiple actions. In Online Evolution, an evolutionary algorithm is used to evolve the combination of atomic actions that make up a single move, with a state evaluation function used for fitness. We implement Online Evolution for the turn-based multi-action game Hero Academy and compare it with a standard Monte Carlo Tree Search implementation as well as two types of greedy algorithms. Online Evolution is shown to outperform these methods by a large margin. This shows that evolutionary planning on the level of a single move can be very effective for this sort of problems."
   bibtex: |
           "@inproceedings{justesen2016online,
             title={Online evolution for multi-action adversarial games},
@@ -222,7 +224,9 @@ papers:
    - "Sebastian Risi"
   year: 2014
   tags:
-  pdfurl: "Monte Carlo methods have recently shown promise in real-time strategy (RTS) games, which are challenging because of their fast pace with simultaneous moves and massive branching factors. This paper presents two extensions to the Monte Carlo method UCT Considering Durations (UCTCD) for finding optimal sequences of actions for units engaged in combat in the RTS game StarCraft. The first extension is a script-based approach inspired by Portfolio Greedy Search and searches for sequences of scripts instead of actions. The second extension is a clusterbased approach as it assigns scripts to clusters of units based on their type and position. The presented results demonstrate that both the script-based and cluster-based UCTCD extensions outperform the original UCTCD with a winning percentage of 100% for battles with 32 units or more. Additionally, unit clustering is shown to give some improvement in large scenarios while it is less effective in small combats. The algorithms were tested in our StarCraft combat simulator called JarCraft, a complete Java translation of the original C++ package SparCraft, made in hopes of making this research area more accessible"
+   - "MCTS"
+  pdfurl: "https://github.com/njustesen/njustesen/blob/master/papers/justesen2014script.pdf"
+  abstract: "Monte Carlo methods have recently shown promise in real-time strategy (RTS) games, which are challenging because of their fast pace with simultaneous moves and massive branching factors. This paper presents two extensions to the Monte Carlo method UCT Considering Durations (UCTCD) for finding optimal sequences of actions for units engaged in combat in the RTS game StarCraft. The first extension is a script-based approach inspired by Portfolio Greedy Search and searches for sequences of scripts instead of actions. The second extension is a clusterbased approach as it assigns scripts to clusters of units based on their type and position. The presented results demonstrate that both the script-based and cluster-based UCTCD extensions outperform the original UCTCD with a winning percentage of 100% for battles with 32 units or more. Additionally, unit clustering is shown to give some improvement in large scenarios while it is less effective in small combats. The algorithms were tested in our StarCraft combat simulator called JarCraft, a complete Java translation of the original C++ package SparCraft, made in hopes of making this research area more accessible"
   bibtex: |
           "@inproceedings{justesen2014script,
             title={Script-and cluster-based UCT for StarCraft},
