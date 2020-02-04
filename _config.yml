@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: Quality-Diversity optimisation algorithms
-description: This webpage intends to list papers related to QD algorithms, links to tutorials and workshops, and pointers to existing implementations of QD algorithms.
+title: Niels Justesen
+description: Welcome to my website
 plugins:
   - jekyll-relative-links
 relative_links:
