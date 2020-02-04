@@ -23,8 +23,7 @@ papers:
           booktitle={2019 IEEE Conference on Games (CoG)},
           pages={1--8},
           year={2019},
-          organization={IEEE}
-        }"
+          organization={IEEE}}"
 - title: "When Are We Done with Games?"
   authors:
    - "Niels Justesen"
@@ -43,8 +42,7 @@ papers:
             booktitle={2019 IEEE Conference on Games (CoG)},
             pages={1--8},
             year={2019},
-            organization={IEEE}
-          }"
+            organization={IEEE}}"
 - title: "MAP-Elites for Noisy Domains by Adaptive Sampling"
   authors:
    - "Niels Justesen"
@@ -62,8 +60,7 @@ papers:
             booktitle={2019 IEEE Conference on Games (CoG)},
             pages={1--8},
             year={2019},
-            organization={IEEE}
-          }"
+            organization={IEEE}}"
 - title: "Deep Learning for Video Game Playing"
   authors:
    - "Niels Justesen"
@@ -83,8 +80,7 @@ papers:
           author={Justesen, Niels and Bontrager, Philip and Togelius, Julian and Risi, Sebastian},
           journal={IEEE Transactions on Games},
           year={2019},
-          publisher={IEEE}
-        }"
+          publisher={IEEE}}"
 - title: "Illuminating Generalization in Deep Reinforcement Learning through Procedural Level Generation"
   authors:
    - "Niels Justesen"
@@ -106,8 +102,7 @@ papers:
             title={Illuminating Generalization in Deep Reinforcement Learning through Procedural Level Generation},
             author={Justesen, Niels and Torrado, Ruben Rodriguez and Bontrager, Philip and Khalifa, Ahmed and Togelius, Julian and Risi, Sebastian},
             journal={NeurIPS 2018 Workshop on Deep Reinforcement Learning},
-            year={2018}
-          }"
+            year={2018}}"
 - title: "Blood Bowl: The Next Board Game Challenge for AI"
   authors:
    - "Niels Justesen"
@@ -123,9 +118,7 @@ papers:
             title={Blood bowl: The next board game challenge for ai},
             author={Justesen, Niels and Risi, Sebastian and Togelius, Julian},
             journal={Foundations of Digital Games. Association for Computing Machinery},
-            year={2018}
-          }"
-  
+            year={2018}}"
 - title: "Automated Curriculum Learning by Rewarding Temporally Rare Events"
   authors:
    - "Niels Justesen"
@@ -144,9 +137,7 @@ papers:
             booktitle={2018 IEEE Conference on Computational Intelligence and Games (CIG)},
             pages={1--8},
             year={2018},
-            organization={IEEE}
-          }"
-
+            organization={IEEE}}"
 - title: "Playing Multi-Action Adversarial Games; Online Evolution vs. Tree Search"
   authors:
    - "Niels Justesen"
@@ -169,9 +160,7 @@ papers:
           number={3},
           pages={281--291},
           year={2017},
-          publisher={IEEE}
-        }"
-
+          publisher={IEEE}}"
 - title: "Learning Macromanagement in StarCraft from Replays using Deep Learning"
   authors:
    - "Niels Justesen"
@@ -189,9 +178,7 @@ papers:
           booktitle={2017 IEEE Conference on Computational Intelligence and Games (CIG)},
           pages={162--169},
           year={2017},
-          organization={IEEE}
-        }"
-
+          organization={IEEE}}"
 - title: "Continual Online Evolutionary Planning for In-Game Build Order Adaptation in StarCraft"
   authors:
    - "Niels Justesen"
@@ -209,9 +196,7 @@ papers:
           author={Justesen, Niels and Risi, Sebastian},
           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
           pages={187--194},
-          year={2017}
-        }"
-
+          year={2017}}"
 - title: "Online Evolution for Multi-Action Adversarial Games"
   authors:
    - "Niels Justesen"
@@ -230,9 +215,7 @@ papers:
             booktitle={European Conference on the Applications of Evolutionary Computation},
             pages={590--603},
             year={2016},
-            organization={Springer}
-          }"
-
+            organization={Springer}}"
 - title: "Script-and Cluster-Based UCT for StarCraft"
   authors:
    - "Niels Justesen"
@@ -251,6 +234,4 @@ papers:
             booktitle={2014 IEEE Conference on Computational Intelligence and Games},
             pages={1--8},
             year={2014},
-            organization={IEEE}
-          }"
-
+            organization={IEEE}}"
