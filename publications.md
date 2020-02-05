@@ -26,9 +26,11 @@
 	{% if item.title %}
 	<li>
 		<details><summary><b>{{ item.title }}</b>
-		{% if item.tags contains "review" %}<span class="badge review">Review</span>{% endif %}
-		{% if item.tags contains "robotics" %}<span class="badge robotics">Robotics</span>{% endif %}
-		{% if item.tags contains "games" %}<span class="badge games">Games</span>{% endif %}
+		{% if item.tags contains "Reinforcement Learning" %}<span class="badge reinforcement-learning">Reinforcement Learning</span>{% endif %}
+		{% if item.tags contains "Deep Learning" %}<span class="badge deep-learning">Deep Learning</span>{% endif %}
+		{% if item.tags contains "Procedural Content Generation" %}<span class="badge pcg">Procedural Content Generation</span>{% endif %}
+		{% if item.tags contains "Evolutionary Algorithms" %}<span class="badge evoluationary-algorithms">Evolutionary Algorithms</span>{% endif %}
+		{% if item.tags contains "MCTS" %}<span class="badge mcts">MCTS</span>{% endif %}
 		</summary>
 		<blockquote>
 		{% if item.authors %}
