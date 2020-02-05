@@ -1,5 +1,45 @@
 papers:
 
+- title: "Bootstrapping Conditional GANs for Video Game Level Generation"
+  authors:
+   - "Ruben Rodriguez Torrado"
+   - "Ahmed Khalifa"
+   - "Michael Cerny Green"
+   - "Niels Justesen"
+   - "Sebastian Risi"
+   - "Julian Togelius"
+  year: 2019
+  tags:
+   - "Procedural Content Generation"
+   - "Deep Learning"
+  pdfurl: "/publications/torrado2019bootstrapping.pdf"
+  abstract: "Generative Adversarial Networks (GANs) have shown impressive results for image generation. However, GANs face challenges in generating contents with certain types of constraints, such as game levels. Specifically, it is difficult to generate levels that have aesthetic appeal and are playable at the same time. Additionally, because training data usually is limited, it is challenging to generate unique levels with current GANs. In this paper, we propose a new GAN architecture named Conditional Embedding Self-Attention Generative Adversarial Network (CESAGAN) and a new bootstrapping training procedure. The CESAGAN is a modification of the self-attention GAN that incorporates an embedding feature vector input to condition the training of the discriminator and generator. This allows the network to model non-local dependency between game objects, and to count objects. Additionally, to reduce the number of levels necessary to train the GAN, we propose a bootstrapping mechanism in which playable generated levels are added to the training set. The results demonstrate that the new approach does not only generate a larger number of levels that are playable but also generates fewer duplicate levels compared to a standard GAN."
+  bibtex: |
+          "@article{torrado2019bootstrapping,
+            title={Bootstrapping Conditional GANs for Video Game Level Generation},
+            author={Torrado, Ruben Rodriguez and Khalifa, Ahmed and Green, Michael Cerny and Justesen, Niels and Risi, Sebastian and Togelius, Julian},
+            journal={arXiv preprint arXiv:1910.01603},
+            year={2019}
+          }"
+- title: "Learning a Behavioral Repertoire from Demonstrations"
+  authors:
+   - "Niels Justesen"
+   - "Miguel Gonzalez Duque"
+   - "Daniel Cabarcas Jaramillo"
+   - "Jean-Baptiste Mouret"
+   - "Sebastian Risi"
+  year: 2019
+  tags:
+   - "Deep Learning"
+  pdfurl: "/publications/torrado2019bootstrapping.pdf"
+  abstract: "Imitation Learning (IL) is a machine learning approach to learn a policy from a dataset of demonstrations. IL can be useful to kick-start learning before applying reinforcement learning (RL) but it can also be useful on its own, e.g. to learn to imitate human players in video games. However, a major limitation of current IL approaches is that they learn only a single “average” policy based on a dataset that possibly contains demonstrations of numerous different types of behaviors. In this paper, we propose a new approach called Behavioral Repertoire Imitation Learning (BRIL) that instead learns a repertoire of behaviors from a set of demonstrations by augmenting the state-action pairs with behavioral descriptions. The outcome of this approach is a single neural network policy conditioned on a behavior description that can be precisely modulated. We apply this approach to train a policy on 7,777 human replays to perform build-order planning in StarCraft II. Principal Component Analysis (PCA) is applied to construct a low-dimensional behavioral space from the high-dimensional army unit composition of each demonstration. The results demonstrate that the learned policy can be effectively manipulated to express distinct behaviors. Additionally, by applying the UCB1 algorithm, we are able to adapt the behavior of the policy – in-between games – to reach a performance beyond that of the traditional IL baseline approach."
+  bibtex: |
+          "@article{justesen2019learning,
+            title={Learning a Behavioral Repertoire from Demonstrations},
+            author={Justesen, Niels and Duque, Miguel Gonzalez and Jaramillo, Daniel Cabarcas and Mouret, Jean-Baptiste and Risi, Sebastian},
+            journal={arXiv preprint arXiv:1907.03046},
+            year={2019}
+          }"
 - title: "Blood Bowl: A New Board Game Challenge and Competition for AI"
   authors:
    - "Niels Justesen"
