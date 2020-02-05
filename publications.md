@@ -25,7 +25,8 @@
 	{% for item in sortedgroup %}
 	{% if item.title %}
 	<li>
-		<details>
+		<details><summary><b>{{ item.title }}</b>
+		</summary>
 		<blockquote>
 		{% if item.authors %}
 		   <h4>Authors:</h4>
