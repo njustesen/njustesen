@@ -1,6 +1,6 @@
 # Publications
 
-{{ site.data.paperlist.papers.size }} publications are listed. 
+The folling is an upated list of my {{ site.data.paperlist.papers.size }} publications. 
 
 You can click on each title to display more information, including co-authors, url to pdf, abstract and bibtex. 
 
@@ -72,4 +72,12 @@ You can click on each title to display more information, including co-authors, u
 	{% endfor %}
 </ul>
 {% endfor %}
+
+## PhD Dissertation
+
+[Algorithms for Adaptive Game-playing Agents](/publications/justesen-dissertation.pdf)
+
+## Master Thesis
+
+[Artificial Intelligence for Hero Academy](/publications/justesen-masterthesis.pdf)
 
