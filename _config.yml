@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: Niels Justesen
-description: AI Researcher at modl.ai
+description: AI researcher at modl.ai
 plugins:
   - jekyll-relative-links
 relative_links:
@@ -10,8 +10,4 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 include:
-  - CONTRIBUTING.md
   - index.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
