@@ -2,7 +2,7 @@
 
 ## {{ site.data.paperlist.papers.size }} conference papers, journal articles, and online preprints 
 
-<i>You can click on each title to display more information, including co-authors, url to pdf, abstract and bibtex. </i>
+<i>Click on each title to display more information.</i>
 
 {% comment %} tags:
 <span class="badge review">Reinforcement Learning</span>
