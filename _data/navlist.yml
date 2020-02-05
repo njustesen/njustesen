@@ -1,13 +1,10 @@
 docs:
 
 - pagetitle: About
-  url: /
+  url: /njustesen/
 
-- pagetitle: Papers
-  url: /papers
+- pagetitle: Publications
+  url: /njustesen/publications
 
-- pagetitle: Tutorials
-  url: /tutorials
-
-- pagetitle: Libraries
-  url: /libraries  
+- pagetitle: Curriculum Vitae
+  url: /njustesen/cv  
