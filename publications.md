@@ -1,13 +1,15 @@
 # Publications
 
-The folling is an upated list of my {{ site.data.paperlist.papers.size }} publications. 
+## {{ site.data.paperlist.papers.size }} conference papers, journal articles, and online preprints 
 
-You can click on each title to display more information, including co-authors, url to pdf, abstract and bibtex. 
+<i>You can click on each title to display more information, including co-authors, url to pdf, abstract and bibtex. </i>
 
 {% comment %} tags:
-<span class="badge review">Review</span>
-<span class="badge robotics">Robotics</span>
-<span class="badge games">Games</span>
+<span class="badge review">Reinforcement Learning</span>
+<span class="badge deep-learning">Deep Learning</span>
+<span class="badge pcg">Procedural Content Generation</span>
+<span class="badge evolutionary-algorithms">Evolutionary Algorithms</span>
+<span class="badge mcts">MCTS</span>
 <span class="badge all">All</span> ––>
 {% endcomment %}
 
