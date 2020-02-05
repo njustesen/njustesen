@@ -4,10 +4,7 @@ docs:
   url: /
 
 - pagetitle: Papers
-  url: /papers
+  url: /publications
 
-- pagetitle: Tutorials
-  url: /tutorials
-
-- pagetitle: Libraries
-  url: /libraries  
+- pagetitle: Curriculum Vitae
+  url: /cv  
