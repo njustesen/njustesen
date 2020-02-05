@@ -1,7 +1,9 @@
 # About
 
-I am an AI researcher at Modl.ai working on game-playing and content-generating algorithms. I am especially fascinated by algorithms that can learn to play hard games, and I wrote my dissertation on exactly that topic. I was advised by Prof. Sebastian Risi at the IT University of Copenhagen and was part of the Center for Computer Games Research and the Robotics Evolution and Art Lab. During my PhD, I also had the pleasure of working with Julian Togelius at the Game Innovation Lab at the New York University as well Jean-Baptiste Mouret at INRIA. 
+I am an AI researcher at [modl.ai](www.modl.ai) working on game-playing and content-generating algorithms. I am especially fascinated by algorithms that can learn to play difficult games, and I wrote my dissertation on exactly that topic. I was advised by Prof. [Sebastian Risi](www.sebastianrisi.com) at the IT University of Copenhagen and was part of the Center for [Computer Games Research](https://game.itu.dk/)) and the [Robotics Evolution and Art Laboratory](https://real.itu.dk/). During my PhD, I also had the pleasure of working with [Julian Togelius](www.julian.togelius.com) at the [Game Innovation Lab](http://game.engineering.nyu.edu/) at the NYU School of Engineering as well [Jean-Baptiste Mouret](https://members.loria.fr/JBMouret/) at INRIA in Nancy, France. 
 
-The last few years I have also been organizing an AI competition called Bot Bowl; a competition where people can submit bots that compete in the board game Blood Bowl. This game is orders of magnitiude more complex than Go, and while it seems simpler than StarCraft, bots cannot rely in their quick reactions and perfect motor skills. 
+<img src="https://njustesen.github.io/njustesen/assets/img/njustesen.png" style="margin: 0 auto; width: 300px; display: block">
 
-<img src="https://njustesen.github.io/njustesen/assets/img/njustesen.png" style="text-align:center;max-width: 300px;">
+The last few years I have also been organizing an AI competition called [Bot Bowl](www.bot-bowl.com); a competition where people can submit bots that compete in the board game [Blood Bowl](https://en.wikipedia.org/wiki/Blood_Bowl). This game is orders of magnitiude more complex than Go, and while it seems simpler than StarCraft, bots cannot rely in their quick reactions and perfect motor skills. 
+
+If you want to get in touch, my email address is njustesen at gmail dot com. 
