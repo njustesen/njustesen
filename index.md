@@ -4,4 +4,4 @@ I am an AI researcher at Modl.ai working on game-playing and content-generating 
 
 The last few years I have also been organizing an AI competition called Bot Bowl; a competition where people can submit bots that compete in the board game Blood Bowl. This game is orders of magnitiude more complex than Go, and while it seems simpler than StarCraft, bots cannot rely in their quick reactions and perfect motor skills. 
 
-![Niels Justesen](https://njustesen.github.io/njustesen/assets/img/njustesen.png "Niels Justesen")
+<img src="https://njustesen.github.io/njustesen/assets/img/njustesen.png" style="text-align:center;max-width: 300px;">
