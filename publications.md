@@ -25,13 +25,7 @@
 	{% for item in sortedgroup %}
 	{% if item.title %}
 	<li>
-		<details><summary><b>{{ item.title }}</b>
-		{% if item.tags contains "Reinforcement Learning" %}<span class="badge reinforcement-learning">Reinforcement Learning</span>{% endif %}
-		{% if item.tags contains "Deep Learning" %}<span class="badge deep-learning">Deep Learning</span>{% endif %}
-		{% if item.tags contains "Procedural Content Generation" %}<span class="badge pcg">Procedural Content Generation</span>{% endif %}
-		{% if item.tags contains "Evolutionary Algorithms" %}<span class="badge evoluationary-algorithms">Evolutionary Algorithms</span>{% endif %}
-		{% if item.tags contains "MCTS" %}<span class="badge mcts">MCTS</span>{% endif %}
-		</summary>
+		<details>
 		<blockquote>
 		{% if item.authors %}
 		   <h4>Authors:</h4>
